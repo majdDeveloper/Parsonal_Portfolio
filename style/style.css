@@ -435,6 +435,9 @@ header nav .form i {
   padding: 10px;
   margin-top: -10px;
 }
+.portfolio a {
+  color: #FFF;
+}
 .portfolio  ul li:first-child {
   background-color: var(--main-color);
   color: white;
@@ -494,11 +497,12 @@ header nav .form i {
 }
 .portfolio .video video {
   width: 100%;
+  position: relative;
 }
 .portfolio .video .text {
   width: 100%;
   background-color: var(--main-background);
-  padding: 80px 20px;
+  padding: 10px;
   text-align: center;
   line-height: 3.5;
   color: white;
@@ -507,8 +511,7 @@ header nav .form i {
   top: 50%;
   transform: translateY(-50%);
 }
-.portfolio .video .text a {
-  text-decoration: none;
+.portfolio .video .text span {
   background-color: var(--main-color);
   color: white;
   padding: 15px;
@@ -767,11 +770,11 @@ header nav .form i {
   .pricing .container .infor .date {
   border-bottom: 2px var(--main-color) solid;
 }
-  .pricing .container .infor .buy a {
-  text-decoration: none;
+  .pricing .container .infor .buy span {
   color: white;
   background-color: var(--main-color);
   padding: 10px;
+  cursor: pointer;
 }
   .pricing .container .infor .buy {
   margin-top: 36px;
